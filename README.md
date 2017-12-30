@@ -1,21 +1,24 @@
-# vue-cnodejs
+#前言#
 
-> community of nodejs
+这是我第一个自己写的Vue项目，重写了cnodejs社区部分功能，参考于[VueCnodeJS](https://github.com/shuiRong/VueCnodeJS)，感谢[cnodejs](https://cnodejs.org/)提供的API。
 
-## Build Setup
+#技术栈#
+
+[Vue.js](https://vuejs.org/)
+[Vue-router](https://router.vuejs.org/)
+[axios](https://www.npmjs.com/package/axios)
+[vue-cli](https://www.npmjs.com/package/vue-cli)
+[Element-ui](http://element.eleme.io/#/zh-CN/component/installation)
+[sass](http://sass-lang.com/)
+
+#Build Setup#
 
 ``` bash
-# install dependencies
-npm install
+# 安装项目依赖
+$ npm install --save-dev
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 运行项目，监听端口号为 localhost:8080
+$ npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 项目打包编译
+$ npm run build
