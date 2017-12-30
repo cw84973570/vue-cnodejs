@@ -1,8 +1,8 @@
-#前言#
+## 前言
 
 这是我第一个自己写的Vue项目，重写了cnodejs社区部分功能，参考于[VueCnodeJS](https://github.com/shuiRong/VueCnodeJS)，感谢[cnodejs](https://cnodejs.org/)提供的API。
 
-#技术栈#
+## 技术栈
 
 [Vue.js](https://vuejs.org/)
 
@@ -16,7 +16,7 @@
 
 [sass](http://sass-lang.com/)
 
-#Build Setup#
+## Build Setup
 
 ``` bash
 # 安装项目依赖
