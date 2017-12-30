@@ -5,10 +5,15 @@
 #技术栈#
 
 [Vue.js](https://vuejs.org/)
+
 [Vue-router](https://router.vuejs.org/)
+
 [axios](https://www.npmjs.com/package/axios)
+
 [vue-cli](https://www.npmjs.com/package/vue-cli)
+
 [Element-ui](http://element.eleme.io/#/zh-CN/component/installation)
+
 [sass](http://sass-lang.com/)
 
 #Build Setup#
