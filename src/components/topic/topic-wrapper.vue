@@ -66,10 +66,9 @@
       handleCurrentChange (val) {
         // 当页码参数存在或者目标页码大于1时执行
         // 由于切换标签或者进入主页导致页码变化时不执行，也就是只有点击页码栏才执行
-        if (this.clickPage) {
+        if (this.clickPage || val !== 1) {
           this.currentPage = val
           this.$router.push({ path: '/', query: { tab: this.activeName, page: val } })
-          // this.clickPage = true
         }
       },
       // 切换标签调用
