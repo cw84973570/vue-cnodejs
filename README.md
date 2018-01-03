@@ -2,7 +2,7 @@
 
 这是我第一个自己写的Vue项目，重写了cnodejs社区部分功能，参考于[VueCnodeJS](https://github.com/shuiRong/VueCnodeJS)，感谢[cnodejs](https://cnodejs.org/)提供的API。
 
-**2018.1.3：** 更新vuex版本。
+**2018.1.3：** 更新vuex版本，在vuex-cnodejs分支里。
 
 
 ## 技术栈
