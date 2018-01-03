@@ -1,0 +1,12 @@
+@mixin avatar($size, $radius) {
+  width: $size;
+  height: $size;
+  border-radius: $radius
+}
+
+@mixin tab {
+  margin-right: 5px;
+  color: #fff;
+  background: #80bd01;
+  font-size: 1.4rem;
+}
