@@ -8,8 +8,8 @@ import user from '@/components/user/user'
 Vue.use(Router)
 
 export default new Router({
-  // history模式没有#号
-  mode: 'history',
+  // history模式没有#号，需要后端配合
+  // mode: 'history',
   routes: [
     {
       path: '/',
