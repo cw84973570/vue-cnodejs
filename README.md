@@ -1,15 +1,14 @@
 ## 前言
 
-Vuejs重写的cnode社区spa应用，参考于[lzxb/vue-cnode](https://github.com/lzxb/vue-cnode)，感谢[cnodejs](https://cnodejs.org/)提供的API。
+这是我第一个自己写的Vue项目，重写了cnodejs社区部分功能，参考于[VueCnodeJS](https://github.com/shuiRong/VueCnodeJS)，感谢[cnodejs](https://cnodejs.org/)提供的API。
 
+**2018.1.3：** 更新vuex版本，在vuex-cnodejs分支里。
 
-[在线预览](http://cnode.ned2018.tk/)
+[在线预览](http://120.79.213.45:8081/)
 
 ## 技术栈
 
 [Vue.js](https://vuejs.org/)
-
-[Vuex](https://vuex.vuejs.org/)
 
 [Vue-router](https://router.vuejs.org/)
 
@@ -17,25 +16,9 @@ Vuejs重写的cnode社区spa应用，参考于[lzxb/vue-cnode](https://github.co
 
 [vue-cli](https://www.npmjs.com/package/vue-cli)
 
-[iscroll](https://github.com/cubiq/iscroll)
-
-[vue-iscroll-view](https://github.com/Dafrok/vue-iscroll-view)
+[Element-ui](http://element.eleme.io/#/zh-CN/component/installation)
 
 [sass](http://sass-lang.com/)
-
-### 功能
-- [x] 主题列表，切换标签，上拉加载，下拉刷新
-- [x] 主题详情，回复，点赞
-- [x] 用户详情页，最近回复和最近主题列表
-- [x] 消息提醒，已读消息和未读消息列表
-- [x] 消息自动标记已读
-- [x] 发帖功能
-- [x] 登陆
-- [x] 登出
-- [x] 页面缓存，滚动位置缓存
-- [x] toast提示消息
-- [x] 登陆信息缓存
-- [x] 加载动画
 
 ## Build Setup
 
@@ -43,8 +26,8 @@ Vuejs重写的cnode社区spa应用，参考于[lzxb/vue-cnode](https://github.co
 # 安装项目依赖
 $ npm install --save-dev
 
-# 运行项目
-$ npm run serve
+# 运行项目，监听端口号为 localhost:8080
+$ npm run dev
 
 # 项目打包编译
 $ npm run build
