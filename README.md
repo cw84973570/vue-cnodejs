@@ -9,6 +9,8 @@ Vuejs重写的cnode社区spa应用，参考于[lzxb/vue-cnode](https://github.co
 
 [Vue.js](https://vuejs.org/)
 
+[Vuex](https://vuex.vuejs.org/)
+
 [Vue-router](https://router.vuejs.org/)
 
 [axios](https://www.npmjs.com/package/axios)
